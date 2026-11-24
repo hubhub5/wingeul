@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useApp } from '../lib/ctx'
 import { api, krw, usd } from '../lib/api'
+import Maker from '../components/Maker'
 
 const MODELS = [
   ['claude-haiku-5-5', 'Haiku 5.5 — 가장 저렴 ($0.10 / $0.50)'],
@@ -98,6 +99,7 @@ export default function SettingsPage() {
               </ul>
             </>
           )}
+          <Maker compact />
         </aside>
       </div>
     </>

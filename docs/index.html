@@ -83,6 +83,14 @@ code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;letter-spacing:0;
 .note{margin-top:14px;font-size:13px;color:var(--mute)}
 footer{padding:40px 0 60px;border-top:1px solid var(--outline);font-size:13px;color:var(--mute)}
 footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
+.maker{display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:center;background:var(--surface);border:1px solid var(--outline);border-radius:28px;padding:40px 44px;margin-top:24px}
+.maker img{width:200px;height:200px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 6px var(--bg),0 0 0 7px var(--outline)}
+.maker .role{font-size:12.5px;font-weight:800;color:var(--gold)}
+.maker h3{font-size:26px;font-weight:800;margin-top:6px;line-height:1.35}
+.maker p{color:var(--ink-2);margin-top:12px;font-size:14.5px;max-width:620px}
+.maker .links{margin-top:20px;display:flex;gap:8px;flex-wrap:wrap}
+.maker .btn{height:42px;padding:0 20px;font-size:13.5px}
+@media (max-width:720px){.maker{grid-template-columns:1fr;text-align:center;padding:32px 24px}.maker img{margin:0 auto;width:150px;height:150px}.maker p{margin-left:auto;margin-right:auto}.maker .links{justify-content:center}}
 @media (max-width:900px){
   .hero-grid,.shots,.install{grid-template-columns:1fr}
   .flow{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr}
@@ -94,7 +102,7 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
 <body>
 <nav class="top"><div class="wrap">
   <a class="brand" href="#"><img src="assets/icon.png" alt="">WinGeul</a>
-  <div class="links"><a href="#features">기능</a><a href="#psych">고객 심리</a><a href="#cost">비용</a><a href="#install">설치</a><a href="https://github.com/hubhub5/wingeul">GitHub</a></div>
+  <div class="links"><a href="#features">기능</a><a href="#psych">고객 심리</a><a href="#cost">비용</a><a href="#install">설치</a><a href="#maker">만든 사람</a><a href="https://github.com/hubhub5/wingeul">GitHub</a></div>
 </div></nav>
 
 <header class="hero"><div class="wrap hero-grid">
@@ -189,8 +197,25 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
   <p class="note">코드 서명 인증서가 없는 초기 버전이라 위 경고가 나옵니다. 소스는 GitHub에 공개되어 있습니다.</p>
 </div></section>
 
+<section id="maker"><div class="wrap">
+  <div class="sec-k">MAKER</div>
+  <h2>만든 사람</h2>
+  <div class="maker">
+    <img src="assets/maker.jpg" alt="WinGeul을 만든 사람">
+    <div>
+      <div class="role">Moist Marketer</div>
+      <h3>1인 기업가들의 고객 확보를 돕습니다.</h3>
+      <p>작은 사업이 블로그·뉴스레터·브랜딩으로 손님을 모으는 방법을 연구하고, 마케팅 뉴스레터 Moist Notes를 548편 써 왔습니다. WinGeul은 그동안 손으로 반복하던 키워드 분석과 원고 작업을 도구로 옮긴 것입니다.</p>
+      <div class="links">
+        <a class="btn pri" href="https://maily.so/moistnotes">Moist Notes 구독</a>
+        <a class="btn ghost" href="https://github.com/hubhub5/wingeul/issues">문의·제안</a>
+      </div>
+    </div>
+  </div>
+</div></section>
+
 <footer><div class="wrap">
-  <span>WinGeul · 블로그 상위노출 원고 관리</span>
+  <span>WinGeul · 블로그 상위노출 원고 관리 · made by Moist Marketer</span>
   <span><a href="https://github.com/hubhub5/wingeul/releases">모든 버전</a> · <a href="https://github.com/hubhub5/wingeul">소스</a> · <a href="https://github.com/hubhub5/wingeul/issues">문의·버그 제보</a></span>
 </div></footer>
 

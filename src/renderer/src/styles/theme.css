@@ -394,3 +394,12 @@ input[type='checkbox'] { accent-color: var(--primary); width: 16px; height: 16px
 .stage-line { display: flex; gap: 4px; margin: 8px 0 4px; }
 .stage-line span { flex: 1; text-align: center; padding: 7px 4px; border-radius: 10px; font-size: 11.5px; font-weight: 700; background: var(--surface-3); color: var(--mute); }
 .stage-line span.on { background: var(--primary-c); color: var(--on-primary-c); }
+
+/* ── 만든 사람 ── */
+.maker-card { display: grid; grid-template-columns: 76px 1fr; gap: 16px; align-items: center; background: var(--surface); border: 1px solid var(--outline); border-radius: var(--r-l); padding: 18px 20px; margin-top: 18px; }
+.maker-card img { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 3px var(--surface), 0 0 0 4px var(--outline); }
+.maker-card .role { display: block; font-size: 11.5px; font-weight: 800; color: var(--gold); }
+.maker-card b { display: block; font-size: 14px; font-weight: 800; margin-top: 2px; line-height: 1.45; }
+.maker-card p { font-size: 12.5px; color: var(--ink-2); margin-top: 6px; }
+.maker-card.compact { grid-template-columns: 56px 1fr; padding: 14px 16px; }
+.maker-card.compact img { width: 56px; height: 56px; }

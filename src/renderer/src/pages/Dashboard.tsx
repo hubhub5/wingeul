@@ -3,6 +3,7 @@ import type { Post } from '@shared/types'
 import { useApp } from '../lib/ctx'
 import { api, krw, usd, ymd } from '../lib/api'
 import { Spark } from './Posts'
+import Maker from '../components/Maker'
 
 export default function Dashboard() {
   const { clients, cost, go, openPost, setClientId } = useApp()
@@ -73,6 +74,7 @@ export default function Dashboard() {
               <ul className="plain">{noBrain.map((c) => <li key={c.id}><button className="wl" onClick={() => { setClientId(c.id); go('clients') }}>{c.name}</button></li>)}</ul>
             </>
           )}
+          <Maker compact />
         </aside>
       </div>
     </>
