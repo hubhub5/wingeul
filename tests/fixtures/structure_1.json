@@ -1,0 +1,382 @@
+{
+ "title": "예시 글 제목",
+ "components": [
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n가가가 가가가 가가가 가가가가 가 가가가\n\n가가가가 가가가가 가가 가가가가\n\n가가365가가 가가가 대표원장입니다.^^\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "HL[#ffffff]가가가 가가가 가가가 가가가가 가 가가가",
+    "HL[#ffffff]가가가가 가가가가 가가 가가가가",
+    "HL[#daf9f9]가가365가가 가가가 대표원장",
+    "HL[#ffffff]입니다.^^",
+    "C[#000000]​",
+    "C[#000000]​"
+   ],
+   "lines": 6
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n“원장가, 가가가가가 80가가가 가가 가가\n\n150가가가 가가 가가가 가 가가가가?”\n\n​\n\n“가가 가가 가가 가 가가가가 가가가?”\n\n​\n\n​\n\n가가 가가 비용가 가가 가가가가가\n\n가가 가가가 가가가가가 가가, 가가가 가가가가가.\n\n​\n\n​\n\n가가가가 가가가가가\n\n가가 가가가가가 가가가 가 가가가가 가가\n\n가가가, 가가가가가 가가 가가 가가가가.\n\n​\n\n​\n\n가가가 가가 비용가 가가가 가가 가가가\n\n가 가가가가 가가 가가 가가,\n\n가가가 가가 가가가 가가입니다.\n\n​\n\n​\n\n가가가 가가가가가가가 가가가가가 가가가\n\n가격",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]“원장가, 가가가가가 80가가가 가가 가가",
+    "B:“원장가, 가가가가가 80가가가 가가 가가",
+    "HL[#ffffff]150가가가 가가 가가가 가 가가가가?”",
+    "B:150가가가 가가 가가가 가 가가가가?”",
+    "C[#ba0000]​",
+    "B:​"
+   ],
+   "lines": 27
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "전화 문의\n\n\n\n\n0000-0000-0000\n\n(가가가가가 가가가가가 가가 가가가가가.)"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "1.\n\n \n\n가가 가가가가가가 가 가가가가 가격가 가가가가?"
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가가가가가 가가가 가가가 가가,\n\n가가가 가가 가가가 가가가 가가입니다.\n\n​\n\n​\n\n가가가가가 가가가가 가가 가가 가가가\n\n가가가가 가가 가가가 가가가,\n\n가가 가가가 가가가가가 가가가가가.\n\n​\n\n​\n\n가가가가가 가가가, 가가가 가 가가 가가가\n\n가가가가가 가가 가가 가가가 가가가가.\n\n​\n\n​\n\n가가가가 가가가 가가 가가가 가가가가 가가,\n\n가가 가가 가가 가가 가격 가가가 가가가가.\n\n​\n\n​\n\n가가 가가가가 가가가가가 가가가가가\n\n가가가 가격가가가 가가가 가가가\n\n가가 가가가가 가가가 가가가가가가 가가가가\n\n가",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#daf9f9]가가가가가가 가가가 가가가 가가,",
+    "HL[#daf9f9]가가가 가가 가가가 가가가 가가입니다.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가가가가 가가가가 가가 가가 가가가",
+    "HL[#ffffff]가가가가 가가 가가가 가가가,"
+   ],
+   "lines": 35
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "2..\n\n \n\n가가 가가가가가가 가 가가 가가가 가 가가가가?"
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가격가 가가가가 가가\n\n가가가 가가가 가가가가 가가 가가가가.\n\n​\n\n​\n\n가가가가가 가가가 가가가 가가가 가가가\n\n가가 가가, 가가가 가가가가 가가 가가\n\n가가가가 가가 가가가 가가가 가 가가가가.\n\n​\n\n​\n\n가가 가가 가가가가 가가가 가가\n\n가가가 가가 가가가 가가 가가가 가가\n\n가가 가가가가가 가가 가가가 가가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가격가 가가가가 가가",
+    "HL[#ffffff]가가가 가가가 가가가가 가가 가가가가.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#daf9f9]가가가가가 가가가 가가가 가가가 가가가",
+    "HL[#daf9f9]가가 가가, 가가가 가가가가 가가 가가"
+   ],
+   "lines": 16
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n3D CT가 가가 가가가 가, 가가 가가가 가가가가\n\n가가가 가가가 가가가\n\n가가가 가가가가 가가입니다.\n\n​\n\n​\n\n가가 가가가가가 가가\n\n가가가 가가가 가가가가 가가가가가.\n\n​\n\n​\n\n가가가가 가가 가가가가 가가가가 가가가가\n\n가가가가가 가가 가가가\n\n가가가 가가 가 가가가가.\n\n​\n\n​\n\n가가 가가가가가 가가가가가 가가 가가\n\n가가 가가가가 가 가가 가가가\n\n가가가 가가가 가가가가 가가 가가가가가 가입니다.\n\n​\n\n​\n\n가가가가가가 가가 가가가\n\n가 가가 가가가 가가가가가 가 가가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]3D CT가 가가 가가가 가, 가가 가가가 가가가가",
+    "HL[#ffffff]가가가 가가가 가가가",
+    "HL[#ffffff]가가가 가가가가 가가입니다.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가가가가 가가"
+   ],
+   "lines": 25
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "3..\n\n \n\n가가 가가가가 가격가가 가 가가가가 가가가 가가 가가가가가?"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가 가가가가 가가, 가가가 가가,\n\n가가 가 가가가가 가가가가 가입니다.\n\n​\n\n​\n\n가가 3D CT가 가가가가\n\n가가 가가가 가가가가,\n\n가가가 가가가가 가가가 가가 가가가 가가가\n\n가가 가가가가가 가가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가가가 가가, 가가가 가가,",
+    "HL[#ffffff]가가 가 가가가가 가가가가 가입니다.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가",
+    "HL[#ffffff]3D CT"
+   ],
+   "lines": 12
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가 가가가 가가가 가가가가\n\n가가 가가가 가가가 가가 가가가가가.\n\n​\n\n​\n\n가가 가가 → 가가 가가 → 가가가 가가 가가가\n\n→ 가 가가 가가가 가가가가 4가가 가가가\n\n가가 가가가 가가가 가가가 가가 가가입니다.\n\n​\n\n​\n\n가가가가가가 가가가가 가가 가가 가가가가\n\n가가가 가가 가가가\n\n가가가가가 가가가 가 가가가가.\n\n​\n\n​\n\n가가가 가가 가가 가가가가 가가 가가\n\n가가 가가가 가가가 가가가가입니다.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가가 가가가 가가가가",
+    "HL[#ffffff]가가 가가가 가가가 가가 가가가가가.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#daf9f9]가가 가가 → 가가 가가 → 가가가 가가 가가가",
+    "HL[#daf9f9]→ 가 가가 가가가 가가가가 4가가 가가가"
+   ],
+   "lines": 20
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가 가가가 가 가가가가가\n\n가 가가 가가가 가가가 가가가 가가 가가가\n\n가가가 가 가가가가 가가 가 가가가가.\n\n​\n\n​\n\n가가가 가가 가가가가 가가가가 가가가 가가\n\n가가 가가가가 가가, 가가,\n\n가가 가가가가 가가가가 가가가가 가가가.\n\n​\n\n​\n\n가 가가가가 가가 가가가가 가가가\n\n가가가가 가가가가 가가 가가가가\n\n가가가가 가가가 가가가가 가가가가 가\n\n가가가 가가 가 가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가가 가 가가가가가",
+    "HL[#ffffff]가 가가 가가가 가가가 가가가 가가 가가가",
+    "HL[#ffffff]가가가 가 가가가가 가가 가 가가가가.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#daf9f9]가가가 가가 가가가가 가가가가 가가가 가가"
+   ],
+   "lines": 18
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가가 가가가 가가가가가 가가\n\n가가 가가가 가가가 가가 가가가가.\n\n​\n\n​\n\n가가가 가가가가 가가가가 가가 가가가\n\n가가가 가가가가 가가 가가가\n\n가가가가가 가가가 가가 가가가가가.\n\n​\n\n​\n\n가가가 가가가가가가가 가가가가 가가\n\n가가가가가 가가가 가가가 가가가가가가,\n\n​\n\n가가가가가 가가가 가가가,\n\n가가 비용가 가가가가 가가가 가가가가\n\n가가 가가가 가가가가 가가가.\n\n​\n\n​\n\n​\n\n<가가 가가가가 가격 가가 가가가 가가>",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가가 가가가 가가가가가 가가",
+    "HL[#ffffff]가가 가가가 가가가 가가 가가가가.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가가 가가가가 가가가가 가가 가가가",
+    "HL[#ffffff]가가가 가가가가 가가 가가가"
+   ],
+   "lines": 21
+  },
+  {
+   "type": "table",
+   "layout": "table_layout1",
+   "text": "가가 가가\n\n \n\n가가가 가가\n\n\n\n\n가가 비용\n\n \n\n가가가·가가가·가가가 가가 가가\n\n\n\n\n가가 비용\n\n \n\n가가가·가가가가 가\n\n\n\n\n가가 가가\n\n \n\nCT 가가·가가가 가가가\n\n\n\n\n가가 가가\n\n \n\n가가가 "
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n<가가 가 체크리스트>\n\n​\n\n□ 가가 가가가가가 가가가 가격가가가?\n\n□ 가가가 가 가가 비용가 가가가가가?\n\n□ 가가 가가가 가가가 가가가 가가가가?\n\n□ 가가 가가가 가가 가가가 가가 가가가가?\n\n□ 가가가 가가 가 가가 가가가 가가가가가?\n\n​\n\n​\n\n​\n\n가가 가가가가 가격 가가가 가가 가가\n\n가가가 가가가가, 가가가 가가가\n\n가가가 가가가가가 가가 가가가가가가 가가가.\n\n​\n\n​\n\n가가 가가가 가가 가가가가가\n\n가가가 가가가 가가 가가가 가\n\n가가가 가가가 가가가가가 가입니다.\n\n​\n\n​\n\n가가가가가가가 가가가",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]<가가 가 체크리스트>",
+    "C[#000000]​",
+    "HL[#ffffff]□ 가가 가가가가가 가가가 가격가가가?",
+    "HL[#ffffff]□ 가가가 가 가가 비용가 가가가가가?",
+    "HL[#ffffff]□ 가가 가가가 가가가 가가가 가가가가?",
+    "HL[#ffffff]□ 가가 가가가 가가 가가가 가가 가가가가?"
+   ],
+   "lines": 34
+  },
+  {
+   "type": "oglink",
+   "layout": "large_image",
+   "text": "가가가 예약 :: 가가365가가가가\n\n가가 가가 가가가가 가가가 가가 365가가가 가가가가가. 1. 365가 가가가, 365가 가가 가가 가가입니다. 가가가 가가가가가 가가 가 가가가가. 가가 가가 가가가 가가가 가"
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "전화 문의\n\n\n\n\n0000-0000-0000"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "B:​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "oglink",
+   "layout": "large_image",
+   "text": "가가365가가 가가가 가가가 원장가 가가가가\n\n가가가 가가가가가. 가가365가가 대표원장가가 가가가가가가 가가가가 가가가가 '가가가' 가가가...\n\nblog.naver.com"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "B:​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "placesMap",
+   "layout": "default",
+   "text": "가가365가가가가\n\n가가가가가 가가 가가가 148 702, 703, 704, 705, 706가\n\n \n가가\n \n전화\n가 가가가가 가가가\n가 가가가 가가 가"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "B:​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "B:​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "B:​",
+    "C[#000000]​",
+    "B:​"
+   ],
+   "lines": 2
+  }
+ ]
+}

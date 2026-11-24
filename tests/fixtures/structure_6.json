@@ -1,0 +1,452 @@
+{
+ "title": "예시 글 제목",
+ "components": [
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n가가가가 가가가가가 가가 12가 가가\n\n2가가 가가가가가 가가 가가가 가가가\n\n​\n\n가가가가가가 가가 대표원장,\n\n가가가가가가 가문의 가가가입니다.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "HL[#ffffff]가가가가 가가가가가 가가 12가 가가",
+    "HL[#ffffff]2가가 가가가가가 가가 가가가 가가가",
+    "C[#000000]​",
+    "HL[#ffffff]가가가가가가 가가 대표원장,",
+    "HL[#c2f4db]가가가가가가 가문의 가가가",
+    "HL[#ffffff]입니다.",
+    "C[#000000]​"
+   ],
+   "lines": 8
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n\"원장가, 가가가 가가가가\n\n가가가 가가가 가가가가 가가가?\"\n\n​\n\n\"가가가가 가가가 가가가\n\n가가 가가 가가가 가가 가가가가가.\"\n\n​\n\n​\n\n가가가가가가가가 가가가가 가가가가가\n\n가 가가 가가가가 가가입니다.\n\n​\n\n​\n\n가가가가 가가가가가\n\n가가가가 가가가가 가가가 가 가가가,\n\n가가가 가가가가가 가가 가가가가\n\n가가가 가가가가 가가가 가가가가가.\n\n​\n\n​\n\n가가 가가가 가가 가가가가 가가가가가\n\n가가 가가가 가가가 가가가가.\n\n​\n\n​\n\n가가가 가가가가가가가 가가 가가 가가가\n\n가가 가가 가가가가 가가가가\n\n가",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#ba0000]​",
+    "B:​",
+    "C[#ba0000]​",
+    "B:​",
+    "HL[#ffffff]\"원장가, 가가가 가가가가",
+    "B:\"원장가, 가가가 가가가가",
+    "HL[#ffffff]가가가 가가가 가가가가 가가가?\"",
+    "B:가가가 가가가 가가가가 가가가?\""
+   ],
+   "lines": 28
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "가가 가가 가 가가\n\n\n\n\n가가 가 12가가 가가가 가가 가가\n\n가가 가가가 2가 가가 가가가 가가\n\n\n\n\n가가 가가 100가 가가 가가 가가\n\n\n\n\nMTN 가가 가가 (가가가가 가가 가가가)\n\n\n\n\n가가가가가가 가"
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "전화 문의\n\n\n\n\n0000-0000-0000\n\n(가가가가가 가가가가가 가가 가가가가가.)"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​"
+   ],
+   "lines": 2
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "​\n\n \n\n가가가가가가가가 가가가 가 가가가 가가가가가?"
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "left",
+   "text": "​\n\n​\n\n가가가 가가가 가가가 가가가 가가가\n\n가가가가 가가 가가가가 가가가가가.\n\n​\n\n​\n\n가가가 가가 가가가가가가가가\n\n가가가가가 가가 가가가가.\n\n​\n\n​\n\n가가가가 원장가 가가 가가가가\n\n가가가가 가가 가가 가가가\n\n가가가 가가가 가가가가가가.\n\n​\n\n​\n\n가가 가가가가가가 가문의 3가가\n\n가가 가가가가 가가가가 가가가 가가\n\n가가가 가가가가 가가가가가가.\n\n​\n\n​\n\n가가가 가가 가가 가가 가가가 가가가가.\n\n​\n\n가가 가 가가 가가가 가가가 가가가가 \n\n가가 가가가가 가가가 가가가가 \n\n가 가가가 가가 가가가가 가가가",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가가 가가가 가가가 가가가 가가가",
+    "HL[#ffffff]가가가가 가가 가가가가 가가가가가.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가가 가가 가가가가가가가가",
+    "HL[#ffffff]가가가가가 가가 가가가가."
+   ],
+   "lines": 40
+  },
+  {
+   "type": "oglink",
+   "layout": "large_image",
+   "text": "가가가가 가가가가 가 가가가가 가가가?\n\n가가 가 가가 12가 가가 2가가가 가가가가가 가가가가가 가가 가가가가가 가가 대표원장, 가가가가가가 가...\n\nblog.naver.com"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "​\n\n \n\n가가 가가가 가가 가가가가 가가가?"
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가가가. 가가가가가 가가가가 가가가가.\n\n​\n\n가가 가가가 가가 가가, 가가가 가가가가\n\n가가가가 가가 가가가 가가 가가가가.\n\n​\n\n​\n\n가가 가가가가가 가가가가가 가가\n\n가가가 가가가가가가, 가가가가\n\n가가가가가가 가가 가가가가가.\n\n​\n\n​\n\n가가 가가가가 가가 가가 가가가\n\n가가 가가가 가가가가 가가가\n\n가가가가가가 가가가가 가가 가가 가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가가가. 가가가가가 가가가가 가가가가.",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가",
+    "B:가가 가가",
+    "HL[#ffffff]가 가가 가가, 가가가 가가가가",
+    "HL[#ffffff]가가가가"
+   ],
+   "lines": 18
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "​\n\n \n\n가가 가가가 가가가가 가가가가가?"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가. 가가 가가가 가가가가 가가\n\n가가가 가가 가가가가\n\n가가가가가 가가 가가가 가가가가가.\n\n​\n\n​\n\n가가 가가가가가 가가\n\n가가가가 가가 가가가가 가가 가가가\n\n​\n\n가가 가가 가가가 가가 가가 가가가 가가가\n\n​\n\n가가가가가 가가 가가가\n\n가가 가가가 가가가가\n\n가가가 가가가 가가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#c2f4db]가. 가가 가가가 가가가가 가가",
+    "HL[#c2f4db]가가가 가가 가가가가",
+    "HL[#c2f4db]가가가가가 가가 가가가 가가가가가.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가가가가 가가"
+   ],
+   "lines": 17
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "​\n\n \n\n가가가 가가가 가가가 가가가가가?"
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n가. 가가가 가가가가 가가 가가가\n\n가가가가 가가가 가가가 가 가가가가.\n\n​\n\n​\n\n가가가가 가가가 가가가 가가가 가가\n\n가가가 가가가 가가가가 가가가 가가가가.\n\n​\n\n​\n\n가가가가 가가 가가가 가가가 가가가가 \n\n가가 가가가 가가가가 가가가 가가가.\n\n​\n\n​\n\n가가 가가가가가가가가가가 가가가 가가가\n\n가가가 가가가 \n\n가가 가가 가가가 가가가 가가 가가가가\n\n가가가가 가가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "HL[#ffffff]가. 가가가 가가가가",
+    "HL[#ffffff]가가 가가가",
+    "B:가가 가가가",
+    "HL[#ffffff]가가가가 가가가 가가",
+    "B:가가가가 가가가 가가",
+    "HL[#ffffff]가 가 가가가가.",
+    "C[#000000]​"
+   ],
+   "lines": 19
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "​\n\n \n\n가가가 가가가가 가가가 가가가가가?"
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가 가가 가가가 가가가 가가\n\n가가 가가 가가 가 가가가가 가가가가가.\n\n​\n\n​\n\n가가 가가가 가가가 가가가가\n\n가가가 가가가 가가 가 가가가가.\n\n​\n\n​\n\n가가 가가가가 가가 가가가가가\n\n가가 가가가 가가가\n\n가가가 가가 가가가​​가 가가가가가가.\n\n​\n\n​\n\n가가 가가가가 가가가 가가 가\n\n가가 가가 가가 가가가\n\n가가 가가 가가 가가가 가가 가가가\n\n가가 가가가 가가가.\n\n​\n\n​\n\n가가가가가가가가가 가가가가 가가가가가가\n\n가 가가가가 가가가가가 가가가가\n\n가가가 가가가가가가 가가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가 가가가 가가가 가가",
+    "HL[#ffffff]가가 가가 가가 가 가가가가 가가가가가.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가가 가가가",
+    "HL[#ffffff]가가"
+   ],
+   "lines": 26
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "​\n\n \n\n가가 가가가 가가가 가가가가가?"
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가 가가가가 가가가가.\n\n​\n\n가가 가가가 가가가 가가 가가가\n\n가가가 가가 가가, 가가 가가가\n\n가가가 가가가가 가가 가가가가가.\n\n​\n\n​\n\n가가 가가 가가가 가가\n\n가가가 가가가 가가가 가가 가가가가\n\n가가 가가가가가가\n\n가 가가 가가가 가가가가가.\n\n​\n\n​\n\n가가 가가가가 가가 가가가 \n\n가가가가 가가가 가가가 가 가가가, \n\n가가가 가가가가 가가가가 가가가\n\n가가가 가가 가가 가가가가가.\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가 가가가가 가가가가.",
+    "C[#000000]​",
+    "HL[#c2f4db]가가 가가가 가가가 가가 가가가",
+    "HL[#c2f4db]가가가 가가 가가, 가가 가가가",
+    "HL[#c2f4db]가가가 가가가가 가가 가가가가가.",
+    "C[#000000]​"
+   ],
+   "lines": 20
+  },
+  {
+   "type": "table",
+   "layout": "table_layout1",
+   "text": "가가 가가\n\n \n\n가가가 가가\n\n\n\n\n가가 가가\n\n \n\n가가 가 가가\n\n\n\n\n가가 가가\n\n \n\n가가 가가가 가가가가\n\n\n\n\n가가 가가\n\n \n\n가가·가가가 가 가가\n\n\n\n\n가가 가가 가가\n\n \n\n가가가 가가\n\n\n\n\n가"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​"
+   ],
+   "lines": 2
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "quotation",
+   "layout": "quotation_line",
+   "align": "left",
+   "text": "가가 가 체크리스트",
+   "lines": 1
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "□ 가가 가가 가가 가가가가가가?\n\n□ 가가 가가가 가가가 가가가가가?\n\n□ 가가가 가가가 가가가 가가 가 가가가?\n\n□ 가가 가가가 가가가 가 가가가?\n\n□ 가가가가 가가가 가가가가 가가가?\n\n​\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "HL[#ffffff]□ 가가 가가 가가 가가가가가가?",
+    "HL[#ffffff]□ 가가 가가가 가가가 가가가가가?",
+    "HL[#ffffff]□ 가가가 가가가 가가가 가가 가 가가가?",
+    "HL[#ffffff]□ 가가 가가가 가가가 가 가가가?",
+    "HL[#ffffff]□ 가가가가 가가가 가가가가 가가가?",
+    "C[#000000]​",
+    "C[#000000]​",
+    "C[#000000]​"
+   ],
+   "lines": 8
+  },
+  {
+   "type": "oglink",
+   "layout": "large_image",
+   "text": "[가가] 가가가가 가가 가가가 가가가가가가 12가가가 가가가\n\n가가가가 가가 가가가 가가가가가가 12가가가 가가가 가가 가가가 가가가 가, ‘가가 가가가 가가가?’ ‘...\n\nblog.naver.com"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n​\n\n가가 가가가가가 가가가 가가 가가가\n\n가가 가가가가 가 가가가\n\n가가 가가가 가가가 가가가가 가가입니다.\n\n​\n\n​\n\n가가 가 가가 가가가 가가가 가가가\n\n가가가 가가가 가가가 가가 가.\n\n가 가가가 가가가 가가 가가가가가.\n\n​\n\n​\n\n가가 가가가가가가 가가\n\n가가가가 가가가 가가가 가가가 가가가가\n\n가가가 가 가가가 가가가가가가가가.\n\n​\n\n​\n\n가가 가가가가가가가가 가가가가 가\n\n가 가가 가가가가 가가가 가가가가\n\n가가 가가가 가가가가 가가가가가.\n\n​\n\n​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가가가가가 가가가 가가 가가가",
+    "HL[#ffffff]가가 가가가가 가 가가가",
+    "HL[#ffffff]가가 가가가 가가가 가가가가 가가입니다.",
+    "C[#000000]​",
+    "C[#000000]​",
+    "HL[#ffffff]가가 가 가가 가가가 가가가 가가가"
+   ],
+   "lines": 22
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​\n\n[가가가 & 가가가가가 가]",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​",
+    "HL[#c2f4db][가가가 & 가가가가가 가]",
+    "B:[가가가 & 가가가가가 가]"
+   ],
+   "lines": 2
+  },
+  {
+   "type": "table",
+   "layout": "default",
+   "text": "문의 전화\n\n\n\n\n0000-0000-0000"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "▼ 가가가 예약가가 ▼",
+   "fontSize": "fs16",
+   "marks": [
+    "HL[#c2f4db]▼ 가가가 예약가가 ▼"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "oglink",
+   "layout": "text",
+   "text": "가가가 예약 :: 가가가가가가가가\n\nㅣ가가 가가가가ㅣ 가가 2가 가 가가, 가가가 가가 가가 - 가가 가 2가 가 가가, 가가 가가가 가가가 가가가 가가 가가 가가입니다. [가 가가 가가가 가가 가가가가가 가가가가?"
+  },
+  {
+   "type": "placesMap",
+   "layout": "default",
+   "text": "가가가가가가가가\n\n가가가가 가가가 가가가 가가가 12 가가가가 3가\n\n \n가가\n \n전화\n가 가가가가 가가가\n가 가가가 가가 가"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "oglink",
+   "layout": "large_image",
+   "text": "가가가가가가 가가 가 가 가가가 가가가 (1.가가가가 2.가가가가가)\n\n가가가가가, 가가 가가가가가 가가가& 가가가 대표 원장입니다. 가가가가가! 가가 가가 가가가 가가가...\n\nblog.naver.com"
+  },
+  {
+   "type": "oglink",
+   "layout": "large_image",
+   "text": "가가가 가가가 가가 가가 가가 10가 가가 가가가 가가?\n\n가가가가가, 가가가가가가가 1가 가 가가가 가가가가가 가가가가 가가 가가 가가 가가가가가 가가가 & ...\n\nblog.naver.com"
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​"
+   ],
+   "lines": 1
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "image",
+   "layout": "default",
+   "images": [
+    "image"
+   ],
+   "caption": ""
+  },
+  {
+   "type": "text",
+   "layout": "default",
+   "align": "center",
+   "text": "​",
+   "fontSize": "fs16",
+   "marks": [
+    "C[#000000]​"
+   ],
+   "lines": 2
+  }
+ ]
+}

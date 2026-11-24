@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WinGeul — 블로그 상위노출 원고 관리</title>
+<meta name="description" content="상위노출 분석, 고객 심리 분석, 원고 작성, 의료광고 검수, 이미지 생성, 순위 체크까지. 대행사·마케터를 위한 네이버 블로그 원고 데스크톱 앱.">
+<meta property="og:title" content="WinGeul — 블로그 상위노출 원고 관리">
+<meta property="og:description" content="상위노출 분석부터 순위 체크까지, 내 PC에서 내 API 키로.">
+<meta property="og:image" content="assets/splash.png">
+<link rel="icon" href="assets/icon.png">
+<style>
+@font-face{font-family:'NanumSquareNeo';font-weight:300;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/woff2/NanumSquareNeoTTF-aLt.woff2) format('woff2')}
+@font-face{font-family:'NanumSquareNeo';font-weight:400;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/woff2/NanumSquareNeoTTF-bRg.woff2) format('woff2')}
+@font-face{font-family:'NanumSquareNeo';font-weight:700;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/woff2/NanumSquareNeoTTF-cBd.woff2) format('woff2')}
+@font-face{font-family:'NanumSquareNeo';font-weight:800;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/woff2/NanumSquareNeoTTF-dEb.woff2) format('woff2')}
+:root{
+  --bg:#f4f2ed;--surface:#fbfaf7;--surface-2:#efece6;--ink:#1a2220;--ink-2:#46514e;--mute:#7b8481;--outline:#dcd7cc;
+  --primary:#24453f;--on-primary:#f6f3ec;--primary-c:#d5e4de;--gold:#a4865a;--gold-c:#efe5d3;
+  --ease:cubic-bezier(.2,0,0,1);color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --bg:#0f1312;--surface:#151a18;--surface-2:#1b2220;--ink:#e5e8e3;--ink-2:#b6bfbb;--mute:#87918d;--outline:#2c3532;
+  --primary:#a3cbbf;--on-primary:#0b2a24;--primary-c:#1f3f38;--gold:#d0b582;--gold-c:#3a3123;color-scheme:dark}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'NanumSquareNeo',-apple-system,'Apple SD Gothic Neo',sans-serif;font-size:15px;line-height:1.7;letter-spacing:-0.07em;word-break:keep-all;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+nav.top{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--outline)}
+nav.top .wrap{display:flex;align-items:center;gap:20px;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:16px}
+.brand img{width:30px;height:30px;border-radius:8px}
+nav.top .links{margin-left:auto;display:flex;gap:18px;font-size:13.5px;color:var(--ink-2)}
+nav.top .links a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 24px;border-radius:999px;font-weight:700;font-size:14.5px;transition:transform .15s var(--ease),box-shadow .2s var(--ease);white-space:nowrap}
+.btn:active{transform:scale(.98)}
+.btn.pri{background:var(--primary);color:var(--on-primary)}
+.btn.pri:hover{box-shadow:0 8px 24px rgba(20,40,36,.22)}
+.btn.ton{background:var(--primary-c);color:var(--ink)}
+.btn.ghost{box-shadow:inset 0 0 0 1px var(--outline);color:var(--ink-2)}
+.btn small{font-weight:400;opacity:.75;font-size:12px}
+header.hero{padding:72px 0 40px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.kicker{display:inline-flex;gap:8px;align-items:center;font-size:12.5px;font-weight:700;color:var(--gold);background:var(--gold-c);padding:5px 12px;border-radius:999px;margin-bottom:22px}
+h1{font-size:46px;line-height:1.22;font-weight:800;letter-spacing:-0.07em}
+h1 em{font-style:normal;color:var(--primary)}
+.lead{margin-top:18px;font-size:16.5px;color:var(--ink-2);max-width:520px}
+.dl{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px}
+.ver{margin-top:14px;font-size:12.5px;color:var(--mute)}
+.splash{border-radius:28px;box-shadow:0 30px 80px rgba(15,30,26,.25)}
+section{padding:56px 0}
+.sec-k{font-size:12.5px;font-weight:800;color:var(--gold);letter-spacing:.02em}
+h2{font-size:30px;font-weight:800;margin-top:6px;letter-spacing:-0.07em}
+.sub{color:var(--ink-2);margin-top:8px;max-width:640px}
+.flow{margin-top:28px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.flow div{background:var(--surface);border:1px solid var(--outline);border-radius:22px;padding:22px}
+.flow b{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:15px;background:var(--primary-c);font-size:13px;margin-bottom:14px}
+.flow h3{font-size:16.5px;font-weight:800}
+.flow p{font-size:13.5px;color:var(--ink-2);margin-top:6px}
+.cards{margin-top:28px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{background:var(--surface);border:1px solid var(--outline);border-radius:22px;padding:24px}
+.card h3{font-size:16px;font-weight:800}
+.card p{font-size:13.5px;color:var(--ink-2);margin-top:8px}
+.card ul{margin-top:10px;padding-left:16px;font-size:13px;color:var(--ink-2)}
+.card.hl{background:var(--primary);color:var(--on-primary);border-color:transparent}
+.card.hl p,.card.hl ul{color:color-mix(in srgb,var(--on-primary) 78%,transparent)}
+.shots{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.shots figure{background:var(--surface);border:1px solid var(--outline);border-radius:22px;overflow:hidden}
+.shots img{width:100%}
+.shots figcaption{padding:12px 16px;font-size:13px;color:var(--ink-2)}
+table{width:100%;border-collapse:collapse;margin-top:22px;font-size:14px;background:var(--surface);border-radius:18px;overflow:hidden;border:1px solid var(--outline)}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--outline)}
+th{font-size:12.5px;color:var(--mute);font-weight:700}
+tr:last-child td{border-bottom:0}
+td.r{text-align:right;font-weight:800}
+.install{margin-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.install div{background:var(--surface);border:1px solid var(--outline);border-radius:22px;padding:24px}
+.install h3{font-size:16px;font-weight:800;margin-bottom:10px}
+.install ol{padding-left:18px;font-size:13.5px;color:var(--ink-2)}
+.install li{margin:4px 0}
+code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;letter-spacing:0;background:var(--surface-2);padding:2px 6px;border-radius:6px}
+.note{margin-top:14px;font-size:13px;color:var(--mute)}
+footer{padding:40px 0 60px;border-top:1px solid var(--outline);font-size:13px;color:var(--mute)}
+footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
+@media (max-width:900px){
+  .hero-grid,.shots,.install{grid-template-columns:1fr}
+  .flow{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr}
+  h1{font-size:34px} nav.top .links{display:none}
+}
+@media (max-width:520px){.flow{grid-template-columns:1fr}.btn{width:100%;justify-content:center}}
+</style>
+</head>
+<body>
+<nav class="top"><div class="wrap">
+  <a class="brand" href="#"><img src="assets/icon.png" alt="">WinGeul</a>
+  <div class="links"><a href="#features">기능</a><a href="#psych">고객 심리</a><a href="#cost">비용</a><a href="#install">설치</a><a href="https://github.com/hubhub5/wingeul">GitHub</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap hero-grid">
+  <div>
+    <span class="kicker">네이버 블로그 원고 데스크톱 앱 · 무료</span>
+    <h1>상위노출 분석부터<br><em>순위 체크</em>까지,<br>한 화면에서.</h1>
+    <p class="lead">키워드 하나를 넣으면 상위 글과 검색자의 심리를 분석하고, 경쟁 글이 다루지 않은 지점을 공략하는 원고를 씁니다. 의료광고 검수, 이미지 생성, 네이버 서식 복사까지 이어집니다.</p>
+    <div class="dl" id="dl">
+      <a class="btn pri" data-os="mac-arm64" href="https://github.com/hubhub5/wingeul/releases/latest">Mac 다운로드 <small>Apple Silicon</small></a>
+      <a class="btn ton" data-os="mac-x64" href="https://github.com/hubhub5/wingeul/releases/latest">Mac <small>Intel</small></a>
+      <a class="btn ton" data-os="win" href="https://github.com/hubhub5/wingeul/releases/latest">Windows 다운로드</a>
+    </div>
+    <p class="ver" id="ver">최신 버전 정보를 불러오는 중…</p>
+  </div>
+  <img class="splash" src="assets/splash.png" alt="WinGeul 시작 화면">
+</div></header>
+
+<section id="features"><div class="wrap">
+  <div class="sec-k">WORKFLOW</div>
+  <h2>원고 한 편이 만들어지는 순서</h2>
+  <p class="sub">수집과 분석은 이 PC의 브라우저로, 글쓰기는 본인의 Claude API 키로 합니다. 서버에 데이터를 보내지 않습니다.</p>
+  <div class="flow">
+    <div><b>1</b><h3>상위노출 분석</h3><p>통합검색 구성, 블로그탭 상위 10, 자동완성·연관검색어, 지식iN 질문, 상위 글의 글자수·사진·소제목</p></div>
+    <div><b>2</b><h3>고객 심리</h3><p>고민 지도, 페르소나, 감정 온도, 설득 장치 비교, 검색 의도, 고객 언어, 반론 처리</p></div>
+    <div><b>3</b><h3>컨셉 · 제목 · 원고</h3><p>업체 정보와 예시 글 형식을 그대로 따른 원고. 제목은 상위 제목과의 차별도로 채점</p></div>
+    <div><b>4</b><h3>검수 · 발행 · 순위</h3><p>의료광고 규정, 근거 없는 수치, 유사문서, AI 문체, 설득 구조 점검 후 네이버용 서식 복사</p></div>
+  </div>
+  <div class="cards">
+    <div class="card hl"><h3>예시 글 형식 학습</h3><p>예시 글 주소만 넣으면 글 골격과 서식을 자동으로 배웁니다.</p><ul><li>원장 인사 → 환자 질문 → 결론 먼저 → 번호 소제목 반복 → 비교표·체크리스트</li><li>형광펜·질문 색·글자 크기 자동 추출</li></ul></div>
+    <div class="card"><h3>이미지 자동 생성</h3><p>썸네일과 인포그래픽을 원고 문구 그대로 만듭니다.</p><ul><li>Gemini(선택): 원장 사진을 참고한 썸네일, 3D 인포그래픽</li><li>키가 없어도 무료 카드 디자인</li><li>원고 순서대로 번호 붙은 업로드 폴더</li></ul></div>
+    <div class="card"><h3>광고 규정 검수</h3><p>업종별 규정을 문장 단위로 확인합니다.</p><ul><li>의료: 최상급·비교·효과 보장·할인·치료경험담</li><li>법률·금융 규칙 포함</li><li>업체 정보에 없는 수치 표시</li></ul></div>
+    <div class="card"><h3>네이버 서식 그대로</h3><p>가운데 정렬, 형광펜, 질문 강조, 소제목 박스, 비교표, 전화문의 박스를 붙여넣기 한 번에.</p></div>
+    <div class="card"><h3>업체별 관리</h3><p>업체마다 확인된 정보·강점·문체·연락처·원장 사진을 한 번 정리해 두고 모든 원고에 재사용합니다.</p></div>
+    <div class="card"><h3>순위 체크 · 보고서</h3><p>발행 주소를 등록하면 블로그탭·통합검색 순위를 기록하고 월간 보고서를 만듭니다.</p></div>
+  </div>
+</div></section>
+
+<section id="psych"><div class="wrap">
+  <div class="sec-k">PSYCHOLOGY</div>
+  <h2>검색자의 마음까지 분석합니다</h2>
+  <p class="sub">고민마다 밑에 있는 심리 기제와 강도를 찾고, 상위 글이 어떤 설득 장치를 쓰는지 비교해 비어 있는 자리를 원고 방향으로 바꿉니다.</p>
+  <div class="shots" id="shots">
+    <figure><img src="assets/shot-psych.png" alt="고객 고민 지도"><figcaption>고민 지도 — 심리 기제·강도·원고 방향, 상위 글별 해소 여부</figcaption></figure>
+    <figure><img src="assets/shot-levers.png" alt="설득 장치 비교"><figcaption>설득 장치 비교 — 포화된 장치와 공략 여지</figcaption></figure>
+    <figure><img src="assets/shot-editor.png" alt="원고 검수"><figcaption>원고 검수 — 규정·수치·AI 문체·설득 구조를 실시간 점검</figcaption></figure>
+    <figure><img src="assets/shot-preview.png" alt="모바일 미리보기"><figcaption>모바일 미리보기 — 생성 이미지와 서식을 붙여넣기 전에 확인</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="cost"><div class="wrap">
+  <div class="sec-k">COST</div>
+  <h2>원고 1편에 약 200~400원</h2>
+  <p class="sub">앱은 무료이고, 본인의 API 키로 쓴 만큼만 각 회사에 냅니다. 월 예산 상한을 넘으면 호출이 자동으로 멈춥니다. 아래는 추정치이며 실제 사용액은 앱의 설정·비용 화면에 기록됩니다.</p>
+  <table>
+    <thead><tr><th>항목</th><th>모델</th><th style="text-align:right">예상 비용</th></tr></thead>
+    <tbody>
+      <tr><td>고객 심리 분석 (키워드당, 24시간 재사용)</td><td>Claude Haiku</td><td class="r">약 5원</td></tr>
+      <tr><td>컨셉 · 제목 · 원고</td><td>Claude Sonnet</td><td class="r">약 150~200원</td></tr>
+      <tr><td>이미지 4장 (선택)</td><td>Gemini Nano Banana 2.1</td><td class="r">약 190원</td></tr>
+      <tr><td>이미지 카드</td><td>앱 안에서 렌더</td><td class="r">0원</td></tr>
+      <tr><td>수집 · 검수 · 서식 · 순위 체크 · 키워드 발굴</td><td>—</td><td class="r">0원</td></tr>
+    </tbody>
+  </table>
+</div></section>
+
+<section id="install"><div class="wrap">
+  <div class="sec-k">INSTALL</div>
+  <h2>설치와 첫 실행</h2>
+  <div class="install">
+    <div><h3>Mac</h3><ol>
+      <li>Apple Silicon(M1 이상) 또는 Intel용 <code>.dmg</code>를 받아 앱을 Applications로 옮깁니다.</li>
+      <li>처음 열 때 "확인되지 않은 개발자" 경고가 뜨면 앱을 <b>우클릭 → 열기</b>를 누릅니다.</li>
+      <li>그래도 열리지 않으면 터미널에서 <code>xattr -cr /Applications/WinGeul.app</code> 실행 후 다시 엽니다.</li>
+    </ol></div>
+    <div><h3>Windows</h3><ol>
+      <li><code>.exe</code>를 받아 실행합니다.</li>
+      <li>"Windows의 PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b>을 누릅니다.</li>
+      <li>설치 위치를 고르고 완료하면 바탕화면에 WinGeul이 생깁니다.</li>
+    </ol></div>
+    <div><h3>처음 할 일</h3><ol>
+      <li>설정에 Claude API 키 입력 (<a href="https://console.anthropic.com" style="text-decoration:underline">console.anthropic.com</a>)</li>
+      <li>이미지 생성을 쓰려면 Gemini API 키 입력 (선택, <a href="https://aistudio.google.com" style="text-decoration:underline">aistudio.google.com</a>)</li>
+      <li>업체 등록 → 홈페이지·설문지·예시 글 주소 넣고 분석</li>
+      <li>원고 작성에서 키워드 입력</li>
+    </ol></div>
+    <div><h3>알아 두실 점</h3><ol>
+      <li>키와 데이터는 이 PC에만 저장됩니다 (키는 OS 키체인 암호화).</li>
+      <li>자동 로그인·자동 발행은 하지 않습니다. 복사 → 붙여넣기로 계정 위험이 없습니다.</li>
+      <li>광고 규정 검수는 보조 도구이며 의료광고 사전심의를 대신하지 않습니다.</li>
+    </ol></div>
+  </div>
+  <p class="note">코드 서명 인증서가 없는 초기 버전이라 위 경고가 나옵니다. 소스는 GitHub에 공개되어 있습니다.</p>
+</div></section>
+
+<footer><div class="wrap">
+  <span>WinGeul · 블로그 상위노출 원고 관리</span>
+  <span><a href="https://github.com/hubhub5/wingeul/releases">모든 버전</a> · <a href="https://github.com/hubhub5/wingeul">소스</a> · <a href="https://github.com/hubhub5/wingeul/issues">문의·버그 제보</a></span>
+</div></footer>
+
+<script>
+// 최신 릴리스의 설치 파일로 버튼을 직접 연결 (실패하면 릴리스 페이지로 이동)
+fetch('https://api.github.com/repos/hubhub5/wingeul/releases/latest')
+  .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json() })
+  .then(function (rel) {
+    var assets = rel.assets || []
+    var pick = function (re) { var a = assets.find(function (x) { return re.test(x.name) }); return a && a.browser_download_url }
+    var map = { 'mac-arm64': pick(/mac-arm64\.dmg$/), 'mac-x64': pick(/mac-x64\.dmg$/), 'win': pick(/\.exe$/) }
+    document.querySelectorAll('#dl a').forEach(function (a) { var u = map[a.dataset.os]; if (u) a.href = u })
+    var d = new Date(rel.published_at)
+    document.getElementById('ver').textContent = '최신 ' + rel.tag_name + ' · ' + d.getFullYear() + '.' + (d.getMonth() + 1) + '.' + d.getDate() + ' 배포'
+  })
+  .catch(function () { document.getElementById('ver').textContent = '설치 파일은 GitHub Releases에서 받을 수 있습니다.' })
+</script>
+</body>
+</html>
