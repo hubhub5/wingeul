@@ -1,7 +1,7 @@
 {
   "name": "wingeul",
   "productName": "WinGeul",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "이기는 블로그 글 — 네이버 SERP 분석·불안 지도·브랜드 두뇌 기반 블로그 작성 데스크톱 앱",
   "main": "./out/main/index.js",
   "private": true,
