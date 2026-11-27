@@ -74,6 +74,9 @@ th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--outline)}
 th{font-size:12.5px;color:var(--mute);font-weight:700}
 tr:last-child td{border-bottom:0}
 td.r{text-align:right;font-weight:800}
+.dlhint{display:none;margin-top:14px;max-width:520px;padding:14px 18px;border-radius:18px;background:var(--gold-c);font-size:13.5px;line-height:1.65}
+.dlhint.on{display:block}
+.dlhint b{color:var(--ink)}
 .install{margin-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .install div{background:var(--surface);border:1px solid var(--outline);border-radius:22px;padding:24px}
 .install h3{font-size:16px;font-weight:800;margin-bottom:10px}
@@ -115,6 +118,7 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
       <a class="btn ton" data-os="mac-x64" href="https://github.com/hubhub5/wingeul/releases/latest">Mac <small>Intel</small></a>
       <a class="btn ton" data-os="win" href="https://github.com/hubhub5/wingeul/releases/latest">Windows 다운로드</a>
     </div>
+    <p class="dlhint" id="dlhint"><b>다운로드가 멈춘 것처럼 보이면</b> 브라우저가 서명 없는 설치 파일이라 보류해 둔 상태입니다. <b>Ctrl + J</b>로 다운로드 목록을 열고, 크롬은 <b>보관(또는 계속)</b>, 엣지는 <b>… → 유지 → 자세히 표시 → 그래도 유지</b>("안전하다고 신고"가 아닙니다)를 눌러 주세요. 폴더에 <code>확인되지 않음 ….crdownload</code>만 있다면 아직 이 단계를 거치지 않은 것입니다.</p>
     <p class="ver" id="ver">최신 버전 정보를 불러오는 중…</p>
   </div>
   <img class="splash" src="assets/splash.png" alt="WinGeul 시작 화면">
@@ -178,7 +182,8 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
       <li>그래도 열리지 않으면 터미널에서 <code>xattr -cr /Applications/WinGeul.app</code> 실행 후 다시 엽니다.</li>
     </ol></div>
     <div><h3>Windows</h3><ol>
-      <li><code>.exe</code>를 받아 실행합니다.</li>
+      <li><code>.exe</code>를 받습니다. 크롬·엣지가 다운로드를 보류하면 <b>Ctrl + J</b>를 눌러 크롬은 <b>보관(또는 계속)</b>, 엣지는 <b>… → 유지 → 자세히 표시 → 그래도 유지</b>("안전하다고 신고"가 아닙니다)를 누릅니다.</li>
+      <li>받은 <code>WinGeul-…-win-x64.exe</code>를 실행합니다. <code>.crdownload</code> 파일은 아직 받는 중인 임시 파일이라 열리지 않습니다.</li>
       <li>"Windows의 PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b>을 누릅니다.</li>
       <li>설치 위치를 고르고 완료하면 바탕화면에 WinGeul이 생깁니다.</li>
     </ol></div>
@@ -194,7 +199,7 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
       <li>광고 규정 검수는 보조 도구이며 의료광고 사전심의를 대신하지 않습니다.</li>
     </ol></div>
   </div>
-  <p class="note">코드 서명 인증서가 없는 초기 버전이라 위 경고가 나옵니다. 소스는 GitHub에 공개되어 있습니다.</p>
+  <p class="note">코드 서명 인증서가 없는 초기 버전이라 브라우저 보류와 위 경고가 나옵니다. 소스는 GitHub에 공개되어 있습니다.</p>
 </div></section>
 
 <section id="maker"><div class="wrap">
@@ -219,6 +224,8 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
 </div></footer>
 
 <script>
+// Windows 버튼을 누르면 브라우저 보류 안내를 띄운다
+document.querySelector('#dl a[data-os="win"]').addEventListener('click', function () { document.getElementById('dlhint').classList.add('on') })
 // 최신 릴리스의 설치 파일로 버튼을 직접 연결 (실패하면 릴리스 페이지로 이동)
 fetch('https://api.github.com/repos/hubhub5/wingeul/releases/latest')
   .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json() })
